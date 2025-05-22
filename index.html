@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Buy ZTX Token</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e2a38, #4b6cb7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .background-grid {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .container {
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 50, 0.75);
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,123,255,0.7);
+    text-align: center;
+    max-width: 400px;
+  }
+  h1 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 2.2rem;
+  }
+  button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 180px;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+
+<div class="background-grid"></div>
+
+<div class="container">
+  <h1>Buy ZTX Token</h1>
+  <button id="connectWalletBtn">Connect Wallet</button>
+  <button id="buyBtn">Buy ZTX</button>
+</div>
+
+<script>
+  // Add your JavaScript here for wallet connection and buying functionality
+</script>
+
+</body>
+</html>
